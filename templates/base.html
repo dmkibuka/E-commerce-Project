@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+  {% include 'base/snippets/header.html' %}
+
+  <body>
+    {% include 'base/snippets/navbar.html' %}
+
+    {% block content %}
+
+    <h1>Hello, world!</h1>
+
+    {% endblock %}
+
+    {% include 'base/snippets/footer.html' %}
+
+    {% include 'base/snippets/js.html' %}
+  </body>
+</html>
